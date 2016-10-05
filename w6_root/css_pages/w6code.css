@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    background-color : lightgrey;
+    font-family: sans-serif;
+}
+
+p{
+    color:blue;
+}
+
+h1{
+    border-style: solid;
+    border-bottom-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 10px;
+}
+
+h2{
+    color:blue;
+    font-family: serif;
+}
+
+q{
+    color:purple;
+}
+
+em, strong{
+    color:green;
+}
+
+p#footer{
+    color:black;
+    font-family: serif;
+}
+
+.important{
+    color: red;
+    background: silver;
+}
