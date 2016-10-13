@@ -1,0 +1,43 @@
+body{
+    font-family: Iceland, Nautica, sans-serif;
+    font-size: small;
+    color: #645570;
+    background: #faebd7;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: normal;
+}
+
+q{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+li{
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+li.pink{
+    color: #fc0fc0;
+}
+
+p{
+    font-family: Savannah, Quarter, serif;
+}
+
+p#p1{
+    font-family: Messenger, Bainbridge, monospace;
+}
+
+p#p2{
+    font-family: Crush, fantasy;
+}
+
+p#p3{
+    color: #7b241b;
+    text-decoration: overline;
+}
+
