@@ -1,0 +1,48 @@
+body{
+    background: #F1F3B8;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+}
+
+blockquote{
+    margin-right: 200px;
+    text-align: justify;
+}
+
+h1,h2#ipa-h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
+p#nav-header{
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h2#ipa-h2{
+    font-size: 2em;
+}
+
+.ipa-p{
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+    border-width: 0.2em;
+    border-style: solid;
+    background-color: #F38181;   
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption{
+    text-align: center;
+}
+
