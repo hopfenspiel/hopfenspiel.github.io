@@ -4,12 +4,25 @@ body{
     font-size: medium;
 }
 
+body#stout-body{
+    background: #EDE68A;
+}
+
+body#ipa-body{
+    background: #F8DA5B;
+}
+
+body#pilsner-body{
+    background: #F3E96D;
+    color: #911F27;
+}
+
 blockquote{
     margin-right: 200px;
     text-align: justify;
 }
 
-h1,h2#ipa-h2{
+h1,h2.sub-h2{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
@@ -23,17 +36,28 @@ h2{
     font-size: 2em;
 }
 
-h2#ipa-h2{
+h2.sub-h2{
     font-size: 2em;
 }
 
-.ipa-p{
+.box{
     text-align: justify;
     padding: 20px;
     margin: 20px;
     border-width: 0.2em;
     border-style: solid;
     background-color: #F38181;   
+}
+
+.stout {
+    background: #683531;
+    color: #F7E8C3;
+}
+
+.pilsner{
+    background: #347A2A;
+    color: #FFFDC1;
+    border-color: #911F27;
 }
 
 img{
@@ -44,5 +68,13 @@ img{
 
 figcaption{
     text-align: center;
+    margin: 10px;
 }
 
+a.alt-hlink{
+    color: #FBFF5F;
+}
+
+a.alt-hlink:hover{
+    color: #A7CF5D;
+}
