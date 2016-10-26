@@ -1,18 +1,31 @@
-body{
-    background: #F1F3B8;
+body{   
+    background-image: url(../images/beer_mug_icon.png);
     font-family: 'Raleway', sans-serif;
     font-size: medium;
 }
 
-body#stout-body{
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    width: 760px;
+    padding: 10px 30px 10px 30px;
+    border: 3px double #000000;
+}
+
+#home-container{
+    background-color: #F1F3B8;
+}
+
+#stout-container{
     background: #EDE68A;
 }
 
-body#ipa-body{
+#ipa-container{
     background: #F8DA5B;
 }
 
-body#pilsner-body{
+#pilsner-container{
     background: #F3E96D;
     color: #911F27;
 }
@@ -28,8 +41,13 @@ h1,h2.sub-h2{
     font-size: 3em;
 }
 
-p#nav-header{
-    text-align: center;
+#nav-header a{
+    color: #333390;
+    background-color: #ccccff;
+    padding: 2px 20px 2px 20px;
+    margin: 3px;
+    text-decoration: none;
+    border: 1px solid #000000;
 }
 
 h2{
