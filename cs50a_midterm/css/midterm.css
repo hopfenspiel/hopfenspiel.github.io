@@ -1,5 +1,7 @@
 body{   
+    background-color: white;
     background-image: url(../images/beer_mug_icon.png);
+    background-repeat: repeat-x;
     font-family: 'Raleway', sans-serif;
     font-size: medium;
 }
@@ -41,9 +43,13 @@ h1,h2.sub-h2{
     font-size: 3em;
 }
 
+#nav-header{
+    text-align: center;
+}
+
 #nav-header a{
-    color: #333390;
-    background-color: #ccccff;
+    color: #1B4B4D;
+    background-color: #E5F1E3;
     padding: 2px 20px 2px 20px;
     margin: 3px;
     text-decoration: none;
@@ -95,4 +101,42 @@ a.alt-hlink{
 
 a.alt-hlink:hover{
     color: #A7CF5D;
+}
+
+.float-right{
+    float: right;
+    margin: 30px 20px 1px 10px;
+    padding-right: 20px;
+}
+
+.caption{
+    font-size: small;
+    font-style: italic;
+    line-height: 1.5em;
+    margin: 0px;
+    margin-top: 8px;
+}
+
+.caption span{
+    font-weight: bold;
+    font-style: normal;
+}
+
+#ipa-guardian{
+    text-align: center;
+}
+
+#ipa-ship{
+    border-style: ridge;
+    border-width: 4px;
+    border-color: grey;
+}
+
+#beer-history-blockquote{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #346473;
+    padding: 10px 20px;
+    margin-left: 80px;
+    margin-right: 100px;
 }
