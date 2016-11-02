@@ -135,8 +135,10 @@ a.alt-hlink:hover{
 #beer-history-blockquote{
     border-style: dashed;
     border-width: 2px;
-    border-color: #346473;
+    border-color: #F1F3B8;
     padding: 10px 20px;
     margin-left: 80px;
     margin-right: 100px;
+    background-color: #346473;
+    color: #FFFDD0;
 }
