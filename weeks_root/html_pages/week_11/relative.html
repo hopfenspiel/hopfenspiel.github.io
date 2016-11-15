@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta lang="en" charset="utf-8">
+    <title>relative example</title>
+    <style>
+        /*no positioning style on a static webpage */
+        p {background-color:#F6B61E; padding: 50px; margin: 10px 100px; width: 70%;}
+        #relative {position: relative; top: 30px; left: 50px;}
+        span {font-weight: bold;}
+    </style>
+</head>
+<body>
+    <h1>This Webpage has a Relative paragraph in it</h1>
+    <p>Nothing on this page is "fixed" relative to the screen, and nothing is positioned by the creator.</p>
+    <p>Just a plain old, ordinary, everyday page.</p>
+    <h2>Not So Ordinary Anymore</h2>
+    <section id="relative">
+    <p>Now this gets more interesting. This paragraph is 50px down and 30px right of its relative position.<br>
+    The CSS is as follows: <span>position:</span> relative; <span>top:</span> 30px; <span>left:</span> 50px;
+    </p>
+    </section>
+</body>
+</html>
