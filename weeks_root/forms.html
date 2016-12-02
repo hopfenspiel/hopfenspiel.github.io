@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta lang="en" charset="utf-8">
+    <title>Form Practice</title>
+</head>
+<body>
+    <form action="https://formspree.io/hopfenspiel@gmail.com"
+          method="post">
+        <p>
+            <label for="favdate">Enter your favorite date:</label>
+            <input type="date" name="favdate">
+        </p>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <input type="radio" name="gender" value="male" checked>Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other
+        </fieldset>
+        <p> Pick your favorite Animal (can choose more than one, but one is required):<br>
+            <label for="box1"><input type="checkbox" name="box1" value="dog" required>Dog</label><br>
+            <label for="box2"><input type="checkbox" name="box2" value="cat">Cat</label><br>
+            <label for="box2"><input type="checkbox" name="box3" value="bird">Parakeet</label><br>
+            <label for="box2"><input type="checkbox" name="box4" value="other">Other</label>
+        </p>
+        <p>
+        <label for="firstname">First Name</label>
+            <br>
+            <input type="text" name="firstname" placeholder="First Name" required>
+        </p>
+        <p>
+            <textarea name="textentry" rows="5" cols="20" placeholder="Enter Text Here"></textarea>
+        </p>
+        <p>
+            <button type="button" onclick="alert('Hello!')">
+                Click Me!
+            </button>
+        </p>
+        <p>
+            <input type="submit" value="Press to Complete">
+            <input type="reset" vaue="Press to Clear All">
+        </p>
+    </form>
+</body>
