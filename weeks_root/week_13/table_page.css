@@ -1,0 +1,32 @@
+table {
+    border: thin solid;
+    border-width: 2px;
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+caption {
+    font-style: italic;
+    padding-top: 5px;
+}
+
+td {
+    border: thin dotted black;
+    padding: 10px;
+    background-color: beige;
+}
+
+th {
+    border: thin solid black;
+    padding: 5px;
+    background-color: cadetblue;
+    color: yellow;
+}
