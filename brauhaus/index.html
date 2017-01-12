@@ -31,6 +31,13 @@
   margin-left: 140px;
 }
     </style>
+    <script>
+        $("#datepicker").datepicker( {
+        format: "mm-yyyy",
+        startView: "months", 
+        minViewMode: "months"
+        });
+    </script>
 </head>
 <body>
     <!-- Fixed navbar -->
@@ -82,31 +89,38 @@
         <div>
             <h3>Add New Hop</h3>
         </div>
-        <table class="table table-bordered table-condensed">
-            <thead>
-                <tr style="text-align:center; font-weight:bold;">
-                    <td>Variety</td>
-                    <td>Alpha Acid</td>
-                    <td>Beta Acid</td>
-                    <td>Oil Content</td>
-                    <td>Harvest</td>
-                    <td>Type</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><input type="text" class="form-control" /></td>
-                    <td><input type="text" class="form-control" /></td>
-                    <td><input type="text" class="form-control" /></td>
-                    <td><input type="text" class="form-control" /></td>
-                    <!-- MAKE HARVEST A CALENDAR CHOICE OPTION, CHOOSE MONTH AND YEAR -->
-                    <td><input type="text" class="form-control" /></td>
-                    <!-- MAKE THIS LAST ONE A DROPDOWN WITH 2 TYPE: PELLET, WHOLE CONE -->
-                    <td><input type="text" class="form-control" /></td>
-                </tr>
-          </tbody>
-        </table>
-        <button type="button" class="btn btn-xs btn-primary pull-right" style="display:inline-block;">Submit</button>
+        <form method="post" action="C:\Users\schau\Documents\web_projects\php\insert.php">
+            <table class="table table-bordered table-condensed">
+                <thead>
+                    <tr style="text-align:center; font-weight:bold;">
+                        <td>Variety</td>
+                        <td>Alpha Acid</td>
+                        <td>Beta Acid</td>
+                        <td>Oil Content</td>
+                        <td>Harvest</td>
+                        <td>Type</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" class="form-control" name="variety"></td>
+                        <td><input type="text" class="form-control" name="alpha_acid"></td>
+                        <td><input type="text" class="form-control" name="beta_acid"></td>
+                        <td><input type="text" class="form-control" name="oil_content"></td>
+                        <!-- MAKE HARVEST A CALENDAR CHOICE OPTION, CHOOSE MONTH AND YEAR -->
+                        <td><input type="month" class="form-control" name="harvest_date"></td>
+                        <!-- MAKE THIS LAST ONE A DROPDOWN WITH 2 TYPE: PELLET, WHOLE CONE -->
+                        <td>
+                            <select name="type" class="form-control">
+                                <option value="pellet">Pellet</option>
+                                <option value="whole-cone">Whole Cone</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" class="submit btn btn-primary pull-right" id="submit" value="Submit">
+        </form>
         <div class="clearfix"></div>
         <hr>
         <div>
@@ -145,8 +159,7 @@
             </table>
         </div>
     </div>
-    
-    
+
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Bootstrap JS plugin -->
